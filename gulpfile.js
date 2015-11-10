@@ -2,7 +2,7 @@ var gulp=require('gulp'),
     fs = require('fs-extra'),
     concat=require('gulp-concat'),
     uglify = require('gulp-uglify'),
-    REPO_NAME='elliptical lodash custom builds',
+    REPO_NAME='elliptical document',
     DIST='./dist';
 
 
