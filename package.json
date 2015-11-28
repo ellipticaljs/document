@@ -1,12 +1,15 @@
 {
     "name": "elliptical-document",
-    "description": "Serializes HTML Forms to JavaScript Documents",
-    "version": "1.0.3",
+    "description": "Parses HTML Forms to JavaScript POJOs",
+    "version": "1.0.4",
     "author": "S. Francis",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tachyon1337/elliptical-document.git"
+        "url": "https://github.com/ellipticaljs/document.git"
+    },
+    "dependencies": {
+        "elliptical-jquery":"git+https://github.com/ellipticaljs/jquery.git"
     },
     "devDependencies": {
         "gulp": "^3.8.7",

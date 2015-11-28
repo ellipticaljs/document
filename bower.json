@@ -1,7 +1,7 @@
 {
   "name": "elliptical-document",
-  "description": "Serializes HTML Forms to JavaScript Documents",
-  "version":"1.0.3",
+  "description": "Parses HTML Forms to JavaScript POJOs",
+  "version": "1.0.4",
   "main": "dist/elliptical.document.js",
   "authors": [
     "S. Francis"
@@ -12,13 +12,33 @@
     "form",
     "serialization"
   ],
-  "homepage": "https://github.com/tachyon1337/elliptical-document",
+  "homepage": "https://github.com/ellipticaljs/document",
   "moduleType": [],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ]
+    "tests",
+    ".gitignore",
+    ".npmignore",
+    "gulpfile.js",
+    "lib",
+    "docs",
+    "index.js",
+    "umd.js",
+    "package.json",
+    "demo",
+    "index.html",
+    "build.json",
+    "bundle.json",
+    ".nvmrc",
+    ".eslintrc",
+    "bin",
+    "CHANGELOG.md",
+    "demos"
+  ],
+  "dependencies": {
+    "elliptical-jquery": "~3.0.8"
+  }
 }
