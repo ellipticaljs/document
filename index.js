@@ -1,3 +1,3 @@
 
-require('elliptical-jquery');
+require('jquery-extensions');
 module.exports=require('./lib/document');

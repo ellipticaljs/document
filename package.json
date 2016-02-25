@@ -1,7 +1,7 @@
 {
     "name": "elliptical-document",
     "description": "Parses HTML Forms to JavaScript POJOs",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "S. Francis",
     "license": "MIT",
     "repository": {
@@ -9,7 +9,7 @@
         "url": "https://github.com/ellipticaljs/document.git"
     },
     "dependencies": {
-        "elliptical-jquery":"git+https://github.com/ellipticaljs/jquery.git"
+        "jquery-extensions": "git+https://github.com/ellipticaljs/jquery-extensions.git"
     },
     "devDependencies": {
         "gulp": "^3.8.7",
