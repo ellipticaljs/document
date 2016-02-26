@@ -1,7 +1,7 @@
 {
   "name": "elliptical-document",
   "description": "Parses HTML Forms to JavaScript POJOs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/elliptical.document.js",
   "authors": [
     "S. Francis"
